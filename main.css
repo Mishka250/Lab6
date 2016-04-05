@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#T1{
+       background: linear-gradient(90deg,darkblue 0%, dodgerblue 90%);
+       margin-top: -8px;
+       margin-top: 0px;
+       text-align: center;
+       height: 40px;
+    border:  3px;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+
+    }
+#T2{
+    background: #787878;
+    margin: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    border:solid black 1px;
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    float: left;
+
+    }
+
+/*
+ for horizontal menu li.first display:inlineblock
+*/
+
+#T2 ul.menu{
+    /*  background-color: darkgreen;*/
+    margin-left: 50px;
+    height: auto;
+    width: auto;
+        text-decoration: none;
+    list-style-type: none;
+   /* border: double black 1px;*/
+}
+
+#T2 ul.menu a{
+    text-decoration: none;
+}
+
+#T2 ul.menu  li.first, li.item, li.last {
+
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+    /*background-color: green;*/
+    height: 20px;
+    width: 150px;
+     margin: 20px;
+}
+#T2 ul.menu li.first:hover,  li.item:hover, li.last:hover
+{
+    background-color: chocolate;
+}
+#T2 ul.menu li.first{
+
+    border: solid ;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+#T2 ul.menu li.item {
+    border: solid ;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+
+}
+
+#T3{
+    margin: auto;
+    margin-top: 0px;
+    border:solid black 1px;
+
+    background: #A8A8A8;
+    height: 800px;
+    width: auto;
+
+}
+#T4{
+    margin: auto;
+    margin-top: 0px;
+    margin-left:0px;
+    background: #00FFFF;
+
+
+}
+#T5{
+    height: 50px;
+    width: auto;
+    margin: 1px;
+    border: solid black 2px;
+    background: linear-gradient(0deg,darkmagenta 0%,mediumpurple 50%, rebeccapurple 100%);
+}
+
+#T5 ul.menu1{
+    margin-left: 0px;
+    height: 50px;
+    width: auto;
+    text-decoration: none;
+    list-style-type: none;
+    /*background-color: darkmagenta;*/
+}
+#T5 ul.menu1 a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+#T5 ul.menu1  li.first1, li.item1, li.last1 {
+
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+
+    margin-top: 10px;
+    margin-left: 0px;
+
+    height: 20px;
+    width: 200px;
+    margin-left: 00px;
+    margin: 0px;
+}
+
+#T5 ul.menu1 li.first1:hover,  li.item1:hover, li.last1:hover
+{
+    background-color: chocolate;
+    transition: all ease-out;
+}
+#T5 ul.menu1 li.first1{
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+#T5 ul.menu1 li.item1 {
+    margin-top: 10px;
+}
+
+#T6{
+    float: right;
+    height: 200px;
+    width: 300px;
+    border:solid black 1px;
+    background-color: dimgray;
+}
+#T5 ul.menu1 li{
+    margin: 0;
+    margin-top: 10px;
+    padding: 2px;
+
+    border: 0;
+}
+
+a:hover,a:active,a:visited{
+    color: black;
+}
+#verMenu1{
+    position: relative;
+}
+#verMenu1 div.menuOne a:hover{
+    background-color: chocolate;
+}
+#verMenu1 div.menuOne{
+
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    display: none;
+    top: 0;
+    left:150px;
+}
+#verMenu1 div.menuOne a{
+    width: auto;
+}
+#verMenu1:hover div.menuOne{
+
+    display: block;
+
+}
+#verMenu1 div.menuOne ul{
+    margin: 7px;
+    margin-top: 0;
+    background-color: white;
+    border: solid 2px rebeccapurple;
+
+}
+#verMenu1 div.menuOne a:hover{
+    background-color: chocolate;
+}
+
+/***/
+#verMenu3{
+    position: relative;
+}
+#verMenu3 div.menuOne a:hover{
+    background-color: chocolate;
+}
+#verMenu3 div.menuOne{
+
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    display: none;
+
+    top: 0;
+    left:150px;
+}
+#verMenu3 div.menuOne a{
+    width: auto;
+}
+#verMenu3:hover div.menuOne{
+
+    display: block;
+
+}
+#verMenu3 div.menuOne ul{
+    margin: 7px;
+    margin-top: 0;
+    background-color: white;
+    border: solid 2px rebeccapurple;
+
+}
+#verMenu3 div.menuOne a:hover{
+    background-color: chocolate;
+}
+/***/
+/*#gorMenu1{
+    position: absolute;
+}*/
+#gorMenu1 div.menuOne a:hover{
+    background-color: chocolate;
+}
+#gorMenu1 div.menuOne{
+    text-decoration: none;
+    z-index: 1;
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    display: none;
+    top: 80px;
+    left:7px;
+}
+#gorMenu1 div.menuOne a{
+    width: auto;
+}
+#gorMenu1:hover div.menuOne{
+
+    display: block;
+
+}
+div.menuOne ul{
+    margin: 0px;
+    margin-top: 0;
+    width: auto;
+    background-color: white;
+    border: solid 2px rebeccapurple;
+}
+#gorMenu1 div.menuOne a:hover {
+    background-color: chocolate;
+}
+
+
+/***/
+
+#gorMenu3{
+    position: absolute;
+}
+#gorMenu3 div.menuOne a:hover{
+    background-color: chocolate;
+}
+#gorMenu3 div.menuOne{
+z-index: 2;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    display: none;
+    top: 0;
+    left:5px;
+}
+#gorMenu3 div.menuOne a{
+    width: auto;
+}
+#gorMenu3:hover div.menuOne{
+
+    display: block;
+
+}
+#gorMenu3 div.menuOne ul{
+    margin: 7px;
+    margin-top: 0;
+    height: 108px;
+    background-color: white;
+    border: solid 2px rebeccapurple;
+}
+#gorMenu3 div.menuOne a:hover{
+    background-color: chocolate;
+}
+#gorMenu32 div.menuOne ul{
+
+    height: 172px;
+    list-style: none;
+}
+#gorMenu32 div.menuOne li{
+    text-decoration: none;
+
+    margin: 0;
+}
+#gorMenu32 div.menuOne{
+
+    width: 100px;
+    height: 20px;
+    position: relative;
+    display: none;
+    top: -55px;
+    left:80px;
+}
+#gorMenu32 div.menuOne ul{
+    display: none;
+}
+#gorMenu32 div.menuOne:hover ul{
+    display: block;
+}
+/**/
+/*
+#gorMenu32{
+    position: absolute;
+}
+#gorMenu32 div.menuOne a:hover{
+    background-color: chocolate;
+}
+#gorMenu32 div.menuOne{
+
+    width: 100px;
+    height: 20px;
+    position: relative;
+    display: none;
+    top: 0;
+    left:80px;
+}
+#gorMenu32 div.menuOne a{
+    width: auto;
+}
+#gorMenu32:hover div.menuOne{
+
+    display: block;
+
+}
+#gorMenu32 div.menuOne ul{
+    margin: 7px;
+    margin-top: 0;
+    background-color: white;
+    border: solid 2px rebeccapurple;
+}
+#gorMenu32 div.menuOne a:hover{
+    background-color: chocolate;
+}
+*/
+#T5 div.menu1 ul:first-child{
+    display: inline-block;
+
+}
