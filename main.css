@@ -4,7 +4,7 @@
 }
 
 #T1{
-       background: linear-gradient(90deg,darkblue 0%, dodgerblue 90%);
+       background: linear-gradient(90deg,burlywood 0%, dodgerblue 90%);
        margin-top: -8px;
        margin-top: 0px;
        text-align: center;
@@ -60,7 +60,7 @@
 }
 #T2 ul.menu li.first:hover,  li.item:hover, li.last:hover
 {
-    background-color: chocolate;
+    background-color: gold;
 }
 #T2 ul.menu li.first{
 
